@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T15:23:10.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nypApfQQj-yp1L-AlVp8" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T15:24:48.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hCJc6SrNHNMpgR_tNY5a" version="24.0.7" type="github">
   <diagram name="Page-1" id="14XZ083jBM_8IBByIj3f">
     <mxGraphModel dx="1306" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,9 +14,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D42yW-FFIJCMqk-TRc6Z-23" value="2. redirect to&amp;nbsp;https://{auth0_domain}/authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="D42yW-FFIJCMqk-TRc6Z-22" vertex="1" connectable="0">
+        <mxCell id="D42yW-FFIJCMqk-TRc6Z-23" value="2. redirect to&amp;nbsp;&lt;div&gt;https://&lt;span style=&quot;text-align: start; text-wrap: wrap;&quot;&gt;accounts.google.com/o/oauth2/v2/auth&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="D42yW-FFIJCMqk-TRc6Z-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0703" relative="1" as="geometry">
-            <mxPoint x="40" y="4" as="offset" />
+            <mxPoint x="60" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oPMAS6JOaMVU0MQ8NKXL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;fontSize=14;exitX=0.997;exitY=0.423;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="D42yW-FFIJCMqk-TRc6Z-1" edge="1">
@@ -114,7 +114,7 @@
             <mxPoint x="641" y="247" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D42yW-FFIJCMqk-TRc6Z-46" value="7.&amp;nbsp;https://{auth0_domain}/oauth/token&lt;br&gt;(clientid,secret,authorization code)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="D42yW-FFIJCMqk-TRc6Z-45" vertex="1" connectable="0">
+        <mxCell id="D42yW-FFIJCMqk-TRc6Z-46" value="7.&amp;nbsp;https://&lt;span style=&quot;text-align: start; text-wrap: wrap;&quot;&gt;oauth2.googleapis.com/token&lt;/span&gt;&lt;br&gt;(clientid,secret,authorization code)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="D42yW-FFIJCMqk-TRc6Z-45" vertex="1" connectable="0">
           <mxGeometry x="-0.1374" y="3" relative="1" as="geometry">
             <mxPoint x="26" y="-5" as="offset" />
           </mxGeometry>
